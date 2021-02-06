@@ -17,7 +17,7 @@ public:
                   m_dir = m_home + "/.config/terminalfinances",
                   m_path_file = m_dir + "/" + m_file_ini,
                   m_en = "/etc/xdg/terminalfinances/TerminalFinances_en_US.qm",
-                  m_es = "/etc/xdg/terminalfinances/TerminalFinances_en_US.qm";
+                  m_es = "/etc/xdg/terminalfinances/TerminalFinances_es_ES.qm";
 
     QString m_content, m_lang = "pt", m_theme = "light",
             m_get_lang = qgetenv("LANG"), m_currency = "R$";
