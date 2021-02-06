@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=Terminal Finances
+GenericName=Financial management
+Comment=Personal Financial Management
+Exec=terminal-finances %u
+Icon=/usr/share/pixmaps/terminal-finances/terminal-finances.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;Qt;
+Keywords=finances;financial;accounting;
+GenericName[pt_BR]=Gestão Financeira
+Comment[pt_BR]=Gestão Financeira pessoal
+GenericName[es_ES]=Gestión financiera
+Comment[es_ES]=Gestión financiera personal
+GenericName[en_US]=Financial management
+Comment[en_US]=Personal Financial Management
