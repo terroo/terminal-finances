@@ -1,6 +1,7 @@
+# Terminal Finances
 This software is suitable for those who want to have control of their personal accounts in an easy and simple way. Available for Linux and Windows.
 
-# ![Terminal Finances - Personal Financial Management](terminal-finances.png) Terminal Finances - Personal Financial Management
+## ![Terminal Finances - Personal Financial Management](terminal-finances.png) Terminal Finances - Personal Financial Management
 
 # Installation
 If you want to use Terminal Finances without compiling choose one of the options below to download:
