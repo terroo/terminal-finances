@@ -3,7 +3,7 @@ This software is suitable for those who want to have control of their personal a
 
 ## ![Terminal Finances - Personal Financial Management](terminal-finances.png) Terminal Finances - Personal Financial Management
 
-![screenshot.png](Terminal Finances running)
+![Terminal Finances running](screenshot.png)
 
 # Installation
 If you want to use Terminal Finances without compiling choose one of the options below to download:
