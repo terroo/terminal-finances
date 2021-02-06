@@ -3,6 +3,8 @@ This software is suitable for those who want to have control of their personal a
 
 ## ![Terminal Finances - Personal Financial Management](terminal-finances.png) Terminal Finances - Personal Financial Management
 
+![screenshot.png](Terminal Finances running)
+
 # Installation
 If you want to use Terminal Finances without compiling choose one of the options below to download:
 - [AppImage Linux x86_64](https://github.com/terroo/terminal-finances/releases/download/v1.0.0/Terminal_Finances-x86_64.AppImage)
@@ -52,7 +54,7 @@ sudo make install
 I am still developing the Wiki, but while it is not ready you can see how to use it through this video:
 > Activate subtitles and choose the language according to yours.
 
-<iframe width="910" height="390" src="https://www.youtube.com/embed/mgm87trLV44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+# <https://www.youtube.com/TerminalRootTV/>
 
 If you find a bug or want a feature to be implemented for the new versions use the [issues](https://github.com/terroo/terminal-finances/issues) to inform.
 
