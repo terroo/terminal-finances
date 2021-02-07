@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>/usr/share/pixmaps/terminal-finances/start.png</normaloff>/usr/share/pixmaps/terminal-finances/start.png</iconset>
+    <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/start.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/start.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
@@ -147,7 +147,7 @@
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>/usr/share/pixmaps/terminal-finances/send-credit.png</normaloff>/usr/share/pixmaps/terminal-finances/send-credit.png</iconset>
+                     <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/send-credit.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/send-credit.png</iconset>
                    </property>
                    <property name="autoDefault">
                     <bool>true</bool>
@@ -269,7 +269,7 @@
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>/usr/share/pixmaps/terminal-finances/send-debit.png</normaloff>/usr/share/pixmaps/terminal-finances/send-debit.png</iconset>
+                     <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/send-debit.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/send-debit.png</iconset>
                    </property>
                    <property name="autoDefault">
                     <bool>true</bool>
@@ -393,7 +393,7 @@
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>/usr/share/pixmaps/terminal-finances/pdf.png</normaloff>/usr/share/pixmaps/terminal-finances/pdf.png</iconset>
+                     <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/pdf.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/pdf.png</iconset>
                    </property>
                   </widget>
                  </item>
@@ -410,7 +410,7 @@
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>/usr/share/pixmaps/terminal-finances/mail.png</normaloff>/usr/share/pixmaps/terminal-finances/mail.png</iconset>
+                     <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/mail.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/mail.png</iconset>
                    </property>
                   </widget>
                  </item>
@@ -427,7 +427,7 @@
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>/usr/share/pixmaps/terminal-finances/spreadsheet.png</normaloff>/usr/share/pixmaps/terminal-finances/spreadsheet.png</iconset>
+                     <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/spreadsheet.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/spreadsheet.png</iconset>
                    </property>
                   </widget>
                  </item>
@@ -650,7 +650,7 @@
                      </property>
                      <property name="icon">
                       <iconset>
-                       <normaloff>/usr/share/pixmaps/terminal-finances/search.png</normaloff>/usr/share/pixmaps/terminal-finances/search.png</iconset>
+                       <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/search.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/search.png</iconset>
                      </property>
                     </widget>
                    </item>
@@ -756,7 +756,7 @@
      <x>0</x>
      <y>0</y>
      <width>1920</width>
-     <height>19</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArquivo">
@@ -805,8 +805,8 @@
   </widget>
   <action name="actionSair">
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/close.png</normaloff>/usr/share/pixmaps/terminal-finances/close.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/close.png</normaloff>:/terminal-finances/close.png</iconset>
    </property>
    <property name="text">
     <string>Sair</string>
@@ -817,8 +817,8 @@
   </action>
   <action name="actionTerminal_Finances">
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/start.png</normaloff>/usr/share/pixmaps/terminal-finances/start.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/start.png</normaloff>:/terminal-finances/start.png</iconset>
    </property>
    <property name="text">
     <string>Terminal Finances</string>
@@ -829,8 +829,8 @@
   </action>
   <action name="actionLan_amentos">
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/balance.png</normaloff>/usr/share/pixmaps/terminal-finances/balance.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/balance.png</normaloff>:/terminal-finances/balance.png</iconset>
    </property>
    <property name="text">
     <string>Lançamentos</string>
@@ -838,8 +838,8 @@
   </action>
   <action name="actionRelat_rios">
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/tab3.png</normaloff>/usr/share/pixmaps/terminal-finances/tab3.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/tab3.png</normaloff>:/terminal-finances/tab3.png</iconset>
    </property>
    <property name="text">
     <string>Relatórios</string>
@@ -847,8 +847,8 @@
   </action>
   <action name="actionPesquisar">
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/search.png</normaloff>/usr/share/pixmaps/terminal-finances/search.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/search.png</normaloff>:/terminal-finances/search.png</iconset>
    </property>
    <property name="text">
     <string>Pesquisar</string>
@@ -862,8 +862,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/pt.png</normaloff>/usr/share/pixmaps/terminal-finances/pt.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/pt.png</normaloff>:/terminal-finances/pt.png</iconset>
    </property>
    <property name="text">
     <string>Português</string>
@@ -874,8 +874,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/en.png</normaloff>/usr/share/pixmaps/terminal-finances/en.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/en.png</normaloff>:/terminal-finances/en.png</iconset>
    </property>
    <property name="text">
     <string>English</string>
@@ -886,8 +886,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/es.png</normaloff>/usr/share/pixmaps/terminal-finances/es.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/es.png</normaloff>:/terminal-finances/es.png</iconset>
    </property>
    <property name="text">
     <string>Español</string>
@@ -898,8 +898,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/dark.png</normaloff>/usr/share/pixmaps/terminal-finances/dark.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/dark.png</normaloff>:/terminal-finances/dark.png</iconset>
    </property>
    <property name="text">
     <string>Dark</string>
@@ -910,8 +910,8 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/light.png</normaloff>/usr/share/pixmaps/terminal-finances/light.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/light.png</normaloff>:/terminal-finances/light.png</iconset>
    </property>
    <property name="text">
     <string>Light</string>
@@ -919,8 +919,8 @@
   </action>
   <action name="actionExportar_Banco_de_Dados">
    <property name="icon">
-    <iconset>
-     <normaloff>/usr/share/pixmaps/terminal-finances/db.png</normaloff>/usr/share/pixmaps/terminal-finances/db.png</iconset>
+    <iconset resource="assets/assets.qrc">
+     <normaloff>:/terminal-finances/db.png</normaloff>:/terminal-finances/db.png</iconset>
    </property>
    <property name="text">
     <string>Exportar Banco de Dados</string>
@@ -954,6 +954,8 @@
   <tabstop>btn_search</tabstop>
   <tabstop>search_tab</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="assets/assets.qrc"/>
+ </resources>
  <connections/>
 </ui>
