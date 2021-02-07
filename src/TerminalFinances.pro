@@ -35,6 +35,8 @@ FORMS += \
     terminalfinances.ui \
     updatefields.ui
 
+RESOURCES += assets/images.qrc
+
 TRANSLATIONS += \
     terminalfinances/TerminalFinances_en_US.ts \
     terminalfinances/TerminalFinances_es_ES.ts
@@ -44,9 +46,6 @@ CONFIG+=lrelease
 shortcut.path = /usr/share/applications
 shortcut.files = terminal-finances.desktop
 
-images.path = /usr/share/pixmaps
-images.files = assets/terminal-finances
-
 configs.path = /etc/xdg
 configs.files = terminalfinances
 
@@ -55,5 +54,5 @@ trans.commands = @mv .qm/* /etc/xdg/terminalfinances
 
 target.path = /usr/local/bin
 
-INSTALLS += target shortcut images configs trans
+INSTALLS += target shortcut configs trans
 

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>terminal-finances/balance.png</file>
+        <file>terminal-finances/close.png</file>
+        <file>terminal-finances/dark.png</file>
+        <file>terminal-finances/db.png</file>
+        <file>terminal-finances/en.png</file>
+        <file>terminal-finances/es.png</file>
+        <file>terminal-finances/light.png</file>
+        <file>terminal-finances/mail.png</file>
+        <file>terminal-finances/pdf.png</file>
+        <file>terminal-finances/pt.png</file>
+        <file>terminal-finances/search.png</file>
+        <file>terminal-finances/send-credit.png</file>
+        <file>terminal-finances/send-debit.png</file>
+        <file>terminal-finances/spreadsheet.png</file>
+        <file>terminal-finances/start.png</file>
+        <file>terminal-finances/tab3.png</file>
+        <file>terminal-finances/terminal-finances.png</file>
+    </qresource>
+</RCC>
