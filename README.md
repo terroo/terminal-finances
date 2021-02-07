@@ -54,7 +54,7 @@ sudo make install
 I am still developing the Wiki, but while it is not ready you can see how to use it through this video:
 > Activate subtitles and choose the language according to yours.
 
-# <https://www.youtube.com/TerminalRootTV/>
+## <https://youtu.be/BF809OoXfjM>
 
 If you find a bug or want a feature to be implemented for the new versions use the [issues](https://github.com/terroo/terminal-finances/issues) to inform.
 
