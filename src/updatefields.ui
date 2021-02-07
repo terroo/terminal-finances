@@ -13,7 +13,11 @@
   <property name="windowTitle">
    <string>Terminal Finances::Atualizar Lançamento</string>
   </property>
-  <widget class="QWidget" name="">
+  <property name="windowIcon">
+   <iconset resource="assets/images.qrc">
+    <normaloff>:/terminal-finances/terminal-finances.png</normaloff>:/terminal-finances/terminal-finances.png</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>9</x>
@@ -126,6 +130,8 @@ font-weight:bold;</string>
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="assets/images.qrc"/>
+ </resources>
  <connections/>
 </ui>

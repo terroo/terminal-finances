@@ -20,8 +20,8 @@
    <string>Terminal Finances</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../../../../../../usr/share/pixmaps/terminal-finances/start.png</normaloff>../../../../../../usr/share/pixmaps/terminal-finances/start.png</iconset>
+   <iconset resource="assets/images.qrc">
+    <normaloff>:/terminal-finances/start.png</normaloff>:/terminal-finances/start.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
@@ -805,7 +805,7 @@
   </widget>
   <action name="actionSair">
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/close.png</normaloff>:/terminal-finances/close.png</iconset>
    </property>
    <property name="text">
@@ -817,8 +817,8 @@
   </action>
   <action name="actionTerminal_Finances">
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
-     <normaloff>:/terminal-finances/start.png</normaloff>:/terminal-finances/start.png</iconset>
+    <iconset resource="assets/images.qrc">
+     <normaloff>:/terminal-finances/terminal-finances.png</normaloff>:/terminal-finances/terminal-finances.png</iconset>
    </property>
    <property name="text">
     <string>Terminal Finances</string>
@@ -829,7 +829,7 @@
   </action>
   <action name="actionLan_amentos">
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/balance.png</normaloff>:/terminal-finances/balance.png</iconset>
    </property>
    <property name="text">
@@ -838,7 +838,7 @@
   </action>
   <action name="actionRelat_rios">
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/tab3.png</normaloff>:/terminal-finances/tab3.png</iconset>
    </property>
    <property name="text">
@@ -847,7 +847,7 @@
   </action>
   <action name="actionPesquisar">
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/search.png</normaloff>:/terminal-finances/search.png</iconset>
    </property>
    <property name="text">
@@ -862,7 +862,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/pt.png</normaloff>:/terminal-finances/pt.png</iconset>
    </property>
    <property name="text">
@@ -874,7 +874,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/en.png</normaloff>:/terminal-finances/en.png</iconset>
    </property>
    <property name="text">
@@ -886,7 +886,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/es.png</normaloff>:/terminal-finances/es.png</iconset>
    </property>
    <property name="text">
@@ -898,7 +898,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/dark.png</normaloff>:/terminal-finances/dark.png</iconset>
    </property>
    <property name="text">
@@ -910,7 +910,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/light.png</normaloff>:/terminal-finances/light.png</iconset>
    </property>
    <property name="text">
@@ -919,7 +919,7 @@
   </action>
   <action name="actionExportar_Banco_de_Dados">
    <property name="icon">
-    <iconset resource="assets/assets.qrc">
+    <iconset resource="assets/images.qrc">
      <normaloff>:/terminal-finances/db.png</normaloff>:/terminal-finances/db.png</iconset>
    </property>
    <property name="text">
@@ -955,7 +955,7 @@
   <tabstop>search_tab</tabstop>
  </tabstops>
  <resources>
-  <include location="assets/assets.qrc"/>
+  <include location="assets/images.qrc"/>
  </resources>
  <connections/>
 </ui>
