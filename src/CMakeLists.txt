@@ -74,4 +74,6 @@ target_link_libraries(Terminal-Finances PRIVATE
         Qt${QT_VERSION_MAJOR}::PrintSupport
 )
 
-install()
+install(TARGETS Terminal-Finances
+    DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
