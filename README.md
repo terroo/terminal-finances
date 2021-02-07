@@ -45,9 +45,20 @@ Then clone the repository and compile as follows:
 ```sh
 git clone https://github.com/terroo/terminal-finances
 cd terminal-finances
+
+# QMake mode:
 qmake -qt=qt5 src/TerminalFinances.pro
 make
 sudo make install
+
+# CMake mode:
+cmake -S src -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local
+cmake --build build -j
+sudo cmake --install build
+
+# Note: Windows compiler does not recognize CMAKE_BUILD_TYPE command -- more info https://stackoverflow.com/a/24470998
+# Run this:
+cmake --build build --config Release -j
 ```
 
 # Use
@@ -78,4 +89,3 @@ Access the Control Panel and Add/Remove Programs and uninstall
 ```sh
 app-get --remove terminal-finances
 ```
-
