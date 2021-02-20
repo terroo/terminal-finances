@@ -4,7 +4,8 @@
 #include <QWidget>
 #include "views.h"
 
-class AccountsList : public QWidget {
+class AccountsList : public QWidget
+{
     Q_OBJECT
 public:
     explicit AccountsList(QWidget *parent = nullptr);

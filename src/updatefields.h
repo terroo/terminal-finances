@@ -7,15 +7,17 @@
 #include "tools.h"
 #include "views.h"
 
-namespace Ui {
-class UpdateFields;
+namespace Ui
+{
+    class UpdateFields;
 }
 
-class UpdateFields : public QDialog{
+class UpdateFields : public QDialog
+{
     Q_OBJECT
 
 public:
-    explicit UpdateFields(QStringList fields = {""}, QWidget *parent = nullptr );
+    explicit UpdateFields(QStringList fields = {""}, QWidget *parent = nullptr);
     ~UpdateFields();
     QStringList m_update_fields;
     bool m_item_del = false;

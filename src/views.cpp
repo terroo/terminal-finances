@@ -1,3 +1,3 @@
 #include "views.h"
 
-Views::Views(QWidget *parent) : QWidget(parent){}
+Views::Views(QWidget *parent) : QWidget(parent) {}

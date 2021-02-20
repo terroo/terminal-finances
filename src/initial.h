@@ -8,7 +8,8 @@
 #include <QProcess>
 #include <QDebug>
 
-class Initial : public QWidget{
+class Initial : public QWidget
+{
     Q_OBJECT
 public:
     explicit Initial(QWidget *parent = nullptr);
@@ -20,14 +21,13 @@ public:
                   m_es = "/etc/xdg/terminalfinances/TerminalFinances_es_ES.qm";
 
     QString m_content, m_lang = "pt", m_theme = "light",
-            m_get_lang = qgetenv("LANG"), m_currency = "R$";
+                       m_get_lang = qgetenv("LANG"), m_currency = "R$";
 
     bool m_check_file();
     void m_file_create();
     void m_set_content();
     void m_read_file();
 signals:
-
 };
 
 #endif // INITIAL_H

@@ -8,13 +8,13 @@
 #include <QDebug>
 #include "views.h"
 
-class Start : public QWidget{
+class Start : public QWidget
+{
     Q_OBJECT
 public:
     explicit Start(QWidget *parent = nullptr);
-    void m_run( QStringList );
+    void m_run(QStringList);
 signals:
-
 };
 
 #endif // START_H

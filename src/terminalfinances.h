@@ -23,10 +23,14 @@
 #include "views.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class TerminalFinances; }
+namespace Ui
+{
+    class TerminalFinances;
+}
 QT_END_NAMESPACE
 
-class TerminalFinances : public QMainWindow{
+class TerminalFinances : public QMainWindow
+{
     Q_OBJECT
 
 public:
@@ -50,7 +54,7 @@ public:
     void m_set_data_ui();
     void m_search_list();
     void m_set_checked_lang();
-    void m_set_lang( QString );
+    void m_set_lang(QString);
 
 private slots:
     void on_btn_c_clicked();
