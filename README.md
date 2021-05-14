@@ -40,7 +40,7 @@ First of all you will need the dependencies
 
 For example, on Ubuntu, Linux Mint, Debian and derivatives the command would be:
 ```sh
-sudo apt install qmake g++ make libqt5widgets5 libqt5gui5 libqt5core5a libqt5sql libqt5printsupport5
+sudo apt install qt5-qmake g++ make libqt5widgets5 libqt5gui5 libqt5core5a libqt5sql5-mysql libqt5printsupport5 qtbase5-dev qttools5-dev-tools
 ```
 
 Then clone the repository and compile as follows:
