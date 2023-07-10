@@ -1,14 +1,13 @@
 #ifndef FILESAVE_H
 #define FILESAVE_H
 
-#include <QWidget>
-#include <QFileInfo>
-#include <QFile>
 #include <QDebug>
+#include <QFile>
+#include <QFileInfo>
 #include <QMessageBox>
 #include <QProcess>
+#include <QWidget>
 #include "views.h"
-
 class FileSave : public QWidget{
     Q_OBJECT
 public:
